@@ -1,0 +1,528 @@
+/* Header Css Area Start*/
+.allh6{
+    color:gray; 
+    text-align: right;
+    font-size: 16px;
+    margin-top: 4%;
+    font-weight: 2;
+    transform: translateX(55px);
+}
+.allh1{
+    font-size: 32px;
+    transform: translate(15px,2px);
+    cursor: pointer;
+}
+.headersidedivs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.allatag:hover{
+    text-decoration: none;
+}
+.headeratag{
+    color: gray;
+    font-size: 15px;
+    margin-left: 15px;
+    transition: 0.6s;
+}
+.headeratag>span{
+    border-left:1px solid gray;
+    border-right:1px solid gray;
+    padding:0 10px;    
+} 
+.headeratag:hover{
+    color:rgb(27, 27, 27);
+    text-decoration: none;
+}
+/* Header Css Area End */
+/* Nav Css Area Start */
+.mainnavdiv>a>span{
+    padding:5px 9px;
+    border-radius: 100%;
+    background-color: #fd602c;
+}
+.mainnavdiv>a>span>i{
+    color:white;
+    transform: rotate(-45deg);   
+}
+/* Half Nav Area Start */
+.navul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items : center;
+    padding-top: 30px;  
+}
+.firstchildnavli>a{
+    color:#fd602c !important;
+}
+.fisrtchildnavlicopy>a{
+    color:gray !important;
+}
+.myallnavli{
+    list-style-type: none;
+}
+.myallnavli>a{   
+    color:grey;
+}
+.myallnavli>a:hover{
+    color:#fd602c;
+}
+/* inner Ul */
+.firstchildnavli:hover .innernavul{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    transform: translateX(-20px);
+}
+.firstchildnavli:hover .litopdiv{
+    height: 100%; 
+}
+
+/* Div in Navbar Dropdown */
+.innernavul{
+    display:none;
+}
+.innernavul>a{
+    color:gray;
+}
+
+.innernavul>a:hover{
+    color:black;
+}
+.innerli{
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: black;
+    background-color: white;
+}
+.secondulfirstchildli>a{
+    color:gray !important;
+}
+ /* Slider Area Animation Effect  */
+ .animatebook{
+    position: absolute;
+}
+.animatebook1{
+    top:0px;
+    margin-left: 500px;
+    margin-left: 70%;
+    margin-top: 170px;
+    animation-name:bouncen;
+}
+@keyframes bouncen {
+    0%   { 
+        opacity:0;
+        margin-left: 1500px;
+    }
+    100% { 
+        opacity: 1;
+        transition: 0.8s;
+        margin-left: 870px;
+
+    }
+  }  
+
+/* Nav Css Area End  */
+/* Main  Sections */
+/*  We Are Hasta Css Section */
+.allatag{
+    text-decoration: none;
+    color: black;
+}
+.allatag:hover{
+    color: black;
+}
+.we-are-hasta-mainimage{
+   background-image: url("img/teamhumans.jpg");
+   background-size: cover;
+   height: 250px;
+}
+.we-are-hasta-mainimage::before{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    opacity: 0.5;
+    position: absolute;
+}
+.we-are-hasta-h{
+   text-align: center;
+   transform: translateY(100px);
+   color: white;
+}
+.under-hasta-pass-area{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.527);
+    height: 10vh;
+    width: 100%;
+}
+.under-hasta-pass-design{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.under-hasta-pass-design>p{
+    font-size: 30px;
+}
+/*  We Are Hasta Css Section End */
+/* Faq Area Start */
+/* Accordion Area */
+.header-div>h5{
+    font-size: 25px;
+    font-weight: 2;
+}
+.accordion-div>button{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    text-align: left;
+}
+.creative-design-span{
+    background: transparent;
+}
+.accordion-div{
+    padding-top: 20px;
+}
+.accordion-div>button>span{
+    padding-left: 10px;
+}
+.mybutton>i{
+    border: 1px solid gray;
+    border-radius: 100%;
+    background-color: rgb(90, 88, 88);
+    color: white;
+    font-size: 10px;
+    padding: 2px;
+}
+.accordion-for-other{
+    display: block !important;
+}
+.lorem-ipsum-accordion>p{
+    text-align: left;
+    color: gray;
+    padding: 30px;
+}
+.lorem-ipsum-accordion{
+    overflow: hidden;
+    height: 15vh;  
+    border: 1px solid rgba(128, 128, 128, 0.322);
+    display: none;
+}
+#creative-design-span{
+    font-size: 16px;
+}
+.lorem-ipsum-accordion>p{
+    font-size: 14px;
+}
+/* Accordion Area End */
+.main-divs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.main-accordion-div{
+    border: 1px solid rgba(128, 128, 128, 0.486);
+}
+.all-aside-divs{
+    padding-left: 40px;
+}
+.all-aside-divs>h3{
+    font-size: 20px;
+    font-weight: 2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.all-aside-list{
+    padding-left: 0px !important
+}
+.aside-ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.aside-ul>h4{
+    font-size: 20px;
+    font-weight: 2;
+}
+.aside-ul>a>li{
+    list-style: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.548);
+    margin-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(73, 71, 71);
+    cursor: pointer;
+}
+.lastli-element{
+    border: none !important;
+}
+.search-div>h3{
+    font-size: 20px;
+    font-weight: 2;
+    padding-bottom: 10px;
+}
+.search-div>form{
+    display: flex;
+    flex-direction: row;
+
+}
+.search-div>form>button{
+    background-color: white;
+    border: none;
+    outline: 1px solid gray;
+    font-size: 16px;
+    cursor: pointer;
+}
+.search-div>form>input{
+    padding:5px;
+    width: 250px;
+    border: none;
+    outline: 1px solid gray;
+}
+.latest-div{
+    padding-top: 20px;
+}
+.latest-div>h3{
+    font-size: 20px;
+    font-weight: 2;
+    padding-bottom: 10px;
+}
+.picture-divs{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.picture-divs>div>a>h4{
+    font-size: 18px;
+    font-weight: 2;
+}
+.picture-divs>div>a>h4:hover{
+    color: #fd602c;
+}
+.picture-divs>div>p{
+    font-size: 14px;
+    color: gray;
+}
+.all-button-divs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.button-divs{
+    margin-top: 10px;
+}
+.button-divs>a>button{
+    background-color: white;
+    padding: 4px;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    border:none;
+    font-size: 16px;
+    color: gray;
+    outline: 1px solid rgba(128, 128, 128, 0.425);
+    cursor: pointer;
+}
+.button-divs>a>button:hover{
+    background-color: #fd602c;
+    color: white;
+}
+.allpic-divs{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.minipics-div{
+    overflow: hidden;
+    height: 80px;
+}
+/* Faq Area End */
+/* Main Area End */
+/* Footer Area Start */
+/* Dark Footer Section Start */
+.footer-top-header{
+    padding-bottom: 30px;
+}
+.allfooterheader{
+    color: white;
+    font-weight: 1 !important;
+    font-size: 20px;
+    padding-top: 50px;
+    transform: translateY(10px);  
+}
+.footerheadercol{
+    color: gray;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 60vh;
+}
+.allfooterheader>h3{
+    font-size: 24px;
+    font-weight: 2;
+}
+.circlearrowfooter{
+    border:1px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.hasta-adress-area{
+    transform: translateY(30px);
+}
+.footerhastaarea{
+    display: flex;
+    flex-direction: row;    
+}
+.footerhastah1{
+    color: white !important;
+    font-size: 30px;
+    font-weight: 2;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.footerheadercol>address{
+    color: gray;
+}
+/* Footer Header Main Col-2 Area Start*/
+.picturediv{
+    transform: translateY(25px);
+}
+.redpenflexdiv{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+.redpenflexdiv>div>h3{
+    font-size: 17px;
+    font-weight: 2;
+    color: white;
+}
+.redpenflexdiv>div>p{
+    font-size: 14px;
+    color: gray;
+}
+.redpenflexdiv>div>span{
+    font-size: 14px;
+    transform: translateY(-15px);
+    color: rgba(128, 128, 128, 0.699);
+}
+.redpenflexdivsecond{
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+.redpenimg{
+    border-radius: 100%;
+    overflow: hidden;
+}
+.redpenimg>img{
+    width: 100%;
+    height: 95%;
+}
+.redpendivtagarea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+/* Footer Header Main Col-3 Area Start */
+.footerheadercol>div>h3{
+    font-weight: 2;
+    color: white !important;
+}
+.borderbottomdivfooterarea{
+    border-bottom: 2px solid white;
+    width: 20px;
+}
+.footerbuttondivs{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.allbuttons{
+    background-color: transparent;
+    border:none;
+    outline: 1px solid rgba(128, 128, 128, 0.534);
+    color: gray;
+    font-size: 16px;
+}
+.designbutton{
+    color: #fd602c;
+    outline-color: #fd602c;
+}
+.allbuttons:hover{
+    color: #fd602c;
+    outline-color: #fd602c;
+}
+.leftbutton{
+    margin-left: 10px;
+}
+.footerbuttondivs>div>span{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+/* Footer Header Main Col-4 Area Start */
+.useful-links-div{
+    transform: translateY(10px);
+}
+.footerendivflex{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.footerendivflex>a{
+    margin-top: 10px;
+}
+.footerendadress{
+    color: gray;
+    font-size: 15px;
+}
+.footerendadress:hover{
+    color: white;
+}
+.footerendadress>i{
+    font-size: 9px;
+}
+/* Footer Area End */
+.overrowline{
+    background-color: #1a1b1be0;
+}
+.iconsoverfooterarea{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.endatag{
+    padding: 10px 11px;
+    border-radius: 100%;
+    margin-left: 11px;
+    background-color: white;
+    color: #fd602c;
+}
+.endatag:hover{
+    background-color: #fd602c;
+    color: white;
+}
+.paddingicons{
+    padding: 10px 14px;
+}
+.footercopyarea{
+    color: gray;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.fivefootericonscolor{
+    background-color: #fd602c;
+    color: white;
+}

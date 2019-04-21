@@ -1,0 +1,395 @@
+@media only screen and (max-width: 768px) {
+    .allh6{
+        text-align: left;
+        font-size: 8px !important;
+        transform: translateX(0px) !important;
+    }
+    .headeratag{
+        color: white;
+        font-size: 5px !important;
+        margin-left: 2px !important;
+    }
+    .allh3{
+        margin-top: 10px !important;
+    }
+    /* Media Header area */
+    .mainnavdiv>a>span{
+        padding:1px 8px !important;
+        transform: translateX(4px) !important;
+    }
+    .mainnavdiv>a>span>i{
+        font-size: 12px !important;
+    }
+    .navul{
+        justify-content: space-around!important;
+        padding-top: 30px !important; 
+    }
+    .allh1{
+        font-size: 15px !important;
+        transform: translate(10px,2px) !important;        
+    }
+    .mainnavdiv{
+        height: 10vh !important;
+    }
+    .myallnavli{
+        font-size: 8px !important;
+        margin-left: 2px !important;
+    }
+    .firstchildnavli:hover .litopdiv{
+        height: 4vh !important; 
+    }
+    /* About Section */
+    .spacearea{
+        height: 4vh !important;
+    }
+    .headerdivs{
+        height: 8vh !important;
+    }
+    .aboutpicsdiv{
+        height: 25vh !important;
+    }
+    .allparagraph{
+        font-size: 8px !important;
+        letter-spacing: 4px !important;
+    }
+    .allh3{
+        font-size: 20px !important;
+   }
+   .borderbottomdiv{
+    width: 20px !important;
+    transform: translateY(-25px) !important;   
+}
+.roundeddiv{
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.roundeddiv>img{
+    width: 60px !important;
+    height: 60px !important;
+}
+.roundeddiv>span{
+    width: 60px !important;
+    height: 60px !important;
+    transform: translate(30px,-60px) !important;
+}
+.aboutpics>p{
+    font-size: 6px !important;
+    margin-left: 20px !important;
+}
+.aboutpics>a{
+    font-size: 6px !important;
+    margin-left: 20px !important;
+}
+/* Top Awesome Div */
+.topawesomediv{
+    transform: translate(-100px,50px);
+    height: 40vh !important;
+    padding-left: 25px !important;
+    padding-top: 25px !important;
+}
+.topawesomedivh3{
+    letter-spacing: 3px !important;
+    font-size: 10px !important;
+    transform: translateY(-20px) !important;
+}
+.indivcheckicon>i{
+    font-size: 6px !important; 
+    margin-top: 2px !important;
+}
+.indivcheckicon>p{
+    font-size: 6px !important;
+}
+.imgawesomediv{
+    background-position: top;
+}
+.awesomediv{
+    height: 50vh !important;
+}
+.readmorebutton{
+    padding: 2px 8px !important;
+    font-size: 5px !important;
+    transform:translateY(-15px) !important;
+}
+/* Creative Hasta Section */
+.creativehasta{
+    height: 35vh !important;
+}
+.creativehastafirstrow{
+    height: 5vh !important;
+}
+.creativehastah1{
+    font-size: 20px !important;
+    padding-top: 30px !important;
+}
+.creativehastadivs>h6{
+    font-size: 8px !important;
+}
+.creativehastadivs>p{
+    font-size: 5px !important;
+}
+.creativehastaicon{
+    padding:2px 5px !important;
+    transform: translateY(-30px) !important;
+}
+.viewprojectsbutton{
+    transform: translateY(-20px) !important;
+}
+/* Our Team Area */
+.ourteamhoverdivs{
+    height: 40vh !important;
+}
+.ourteamhoverdivs:hover .ourteamborderspan{
+    transform: translateY(-30px) !important;   
+}
+.ourteamborderspan{
+    height: 20vh !important;
+}
+.johnwilliamh3{
+    font-size: 8px !important;
+    transform: translateY(10px) !important;
+}
+.ourteamborderspanpar{
+    transform: translateY(5px) !important;
+}
+.ourteampar2{
+    font-size: 6px !important;
+}
+/* Our Services Area */
+.ourservicesalldivs{
+    height: 34vh !important;
+}
+.ourservicesdivs{
+    height: 25vh !important;
+}
+.ourservicesdivs>i{
+    padding: 15px 15px !important;
+    font-size: 12px !important;
+}
+.ourfirstservicesdiv>i{
+    padding: 15px 16px !important;
+}
+.allh5{
+    font-size: 12px !important;
+}
+.ourservicesdivs>p{
+    font-size: 6px !important;
+}
+/* Our Works Area */
+.spacearoundourworks{
+    height: 5vh !important;
+}
+.ourworkshoverdivs{
+    height: 15vh !important;
+}
+.ourworks{
+    height: 45vh !important;
+}
+.ourworksindivsecond::before{
+    width: 80% !important;
+    height: 100% !important;
+}
+.ourworksindiv>h3{
+    font-size: 4px !important;
+    padding: 10px !important;
+}
+.ourworksindiv>small{
+    font-size: 4px !important;
+    padding: 15px !important;
+}
+/* Orange Section Area Start */
+.orangesection{
+    height: 30vh !important;
+}
+.oragnediv>h1{
+    font-size: 6px !important;
+    letter-spacing: 2px !important;
+    transform: translateY(25px) !important;
+}
+.oragnediv>p{
+    font-size: 8px !important;
+    transform: translateY(40px) !important;
+}
+.myform>input{
+    width:50% !important;
+    font-size: 8px !important;
+    height: 2vh !important;
+    padding: 10px !important;
+    transform: translateY(-100px) !important;
+}
+.myform>button{
+    height: 3vh !important;
+    width: 10%;
+    font-size: 2px !important;
+    transform: translateY(-100px) !important;
+}
+/* Number Section Css Area Start */
+.numberindivs{
+    height: 8vh !important;
+}
+.numberindivs>h3{
+    transform: translateX(30px) !important;
+}
+.numberindivs>p{
+    transform: translateY(-2px) !important;
+    transform: translateX(30px) !important;
+    font-size: 6px !important;
+}
+.numberindivs>img{
+    transform: translateX(60px);
+    width: 10% !important;
+    height: 10% !important;
+}
+.numbersection{
+    height: 30vh !important;
+}
+/* Blog Section Area Start */
+.blogsection{
+    height: 70vh !important;
+}
+.orangesquare{
+    width: 20px !important;
+    height: 30px !important;
+    transform: translate(140px, -40px) !important;
+}
+.orangesquare>p{
+    transform: translateY(30px);
+    font-size: 5px !important;
+}
+.orangesquare>i{
+    font-size: 10px !important;
+    transform: translate(20px,10px) !important;
+}
+.triangle{
+    border-top: 16px solid #fd602c !important;
+    border-left: 12px solid #fd602c !important;
+    width: 20px;
+    transform: rotate(20deg);
+    margin-top: -10px;
+    margin-left: 40%;
+    border-bottom: 25px solid transparent;
+    border-right: 24px solid transparent;
+}
+.blogh3{
+    font-size: 12px !important;
+    margin-top: 30px !important;
+}
+.iconblogdiv>p{
+    font-size: 6px !important;
+}
+.iconblogdiv{
+    width: 100px;
+}
+.underblogimage>p{
+    font-size: 6px !important;
+}
+/* Parlax Image Section Start */
+.parlaxsection{
+    height: 50vh !important;   
+}
+.parlaximagediv>h6{
+    letter-spacing: 15px !important;
+    font-size: 10px !important;
+}
+.parlaximagediv{
+    height: 45vh !important;
+    width: 100% !important;
+    background-position: center !important;
+}
+.parlaximagediv::before{
+    content: "";
+    width: 100%;
+    height: 45vh !important;
+}
+.parlaximagediv>h1{
+    font-size: 35px !important;
+}
+/*  Our Pricing Css Area Start */
+.ourpricing{
+    height: 60vh !important;
+}
+.ourpricingul>h4>span{
+    font-size:8px !important;  
+}
+.ourpricingul>div>h4{
+    font-size:8px !important; 
+}
+.ourpricingul>div>h3{
+    font-size:8px !important; 
+}
+.ourpricingul>li{
+    padding: 10px !important;
+    height: 20px !important;
+    font-size: 8px !important;
+}
+.orangeul>div{
+    height: 11vh !important;
+}
+.orangeul>div>img{
+    transform: translate(1px,-35px) !important;
+    width: 52% !important;
+}
+/* Our Clients Css Section Start */
+.ourclientmain{
+    height: 30vh !important;
+}
+.ourclientmain::before{
+    height: 30vh !important;
+}
+.ourclientcolor{
+    font-size: 8px !important;
+}
+/* White&Orange Section Css Area Start */
+.whiteareaicondivs{
+    height: 10vh !important;
+}
+.whiteareaicondivs>img{
+    width: 100% !important;
+}
+.orangeareacontainer{
+    height: 10vh !important;
+}
+.orangeareaindiv{
+    height: 10vh !important;
+}
+.orangeareaindiv>h2{
+    font-size: 14px !important;
+}
+.orangeareaindiv>p{
+    font-size: 6px !important;
+    transform: translateY(-20px) !important;
+}
+.orangedivbutton>a>button{
+    padding: 4px 12px !important;
+    font-size: 8px !important;
+    transform: translateY(-20px) !important;
+}
+/* Main Area End */
+/* Footer Area Start */
+/* Dark Footer Section Start */
+.darkfootersection{
+    height: 230vh !important;
+}
+.footerheadercol{
+    height: 50vh !important;
+}
+.iconsoverfooterarea{
+    height: 10vh !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+    align-items: center;
+}
+.endatag{
+    padding: 5px 6px !important;
+    margin-left: 6px !important;
+}
+.paddingicons{
+    padding: 5px 10px !important;
+}
+.footercopyarea{
+    text-align: left !important;
+    font-size: 14px !important;
+}
+  }

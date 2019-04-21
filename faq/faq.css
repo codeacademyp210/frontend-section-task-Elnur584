@@ -1,0 +1,44 @@
+.sticky{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;  
+    background-color: white;
+    z-index: 3;
+}
+.headersidedivs{
+    background-color: white;
+    height: 9vh;
+    position: relative;
+    display: block;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+}
+/* Header Css Area End */
+ /* Nav Css Area Start  */
+/* All Header Tags Css */
+/* .mainnavdiv{
+    height: 14vh;
+} */
+.container-fluid{
+    height: 100%;
+}
+.mainnavdivleft{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* Nav Css Area End */
+/* Main Css Area Start */
+/*  We Are Hasta Css Section */
+/* Faq Area Start */
+
+/* Faq Area End */
+/*  We Are Hasta Css Section End */
+/* Main Area End */
+/* Footer Area Start */
+/* Dark Footer Section Start */
+.darkfootersection{
+    height: 87vh;
+    background-color: rgba(0, 0, 0, 0.918) !important;
+}

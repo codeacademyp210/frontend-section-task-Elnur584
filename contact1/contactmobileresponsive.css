@@ -1,0 +1,73 @@
+@media only screen and (max-width: 768px) {
+    .allh6{
+        text-align: left;
+        transform: translateX(5px) !important;
+    }
+    .headeratag{
+        color: gray;
+        margin-left: 5px !important;
+    }
+    .allh3{
+        margin-top: 10px !important;
+    }
+    /* Media Header area */
+    .mainnavdiv>a>span{
+        padding:1px 8px !important;
+        transform: translateX(4px) !important;
+    }
+    .mainnavdiv>a>span>i{
+        font-size: 12px !important;
+    }
+    .navul{
+    padding-top: 10px !important;  
+    }
+    .all-li-area{
+        margin-left: 5px !important;
+    }
+    .allh1{
+        font-size: 15px !important;
+        transform: translate(10px,2px) !important;        
+    }
+    .mainnavdiv{
+        height: 10vh !important;
+    }
+    .myallnavli{
+        font-size: 8px !important;
+        margin-left: 2px !important;
+    }
+    .firstchildnavli:hover .litopdiv{
+        height: 4vh !important; 
+    }
+/* About Section */
+/* Main Area Start */  
+/*  We Are Hasta Css Section */  
+
+/*  We Are Hasta Css Section End */
+/* Main Area End */
+/* Footer Area Start */
+/* Dark Footer Section Start */
+.darkfootersection{
+    height: 230vh !important;
+}
+.footerheadercol{
+    height: 50vh !important;
+}
+.iconsoverfooterarea{
+    height: 10vh !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+    align-items: center;
+}
+.endatag{
+    padding: 5px 6px !important;
+    margin-left: 6px !important;
+}
+.paddingicons{
+    padding: 5px 10px !important;
+}
+.footercopyarea{
+    text-align: left !important;
+    font-size: 14px !important;
+}
+  }

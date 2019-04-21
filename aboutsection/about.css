@@ -1,0 +1,89 @@
+.sticky{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;  
+    background-color: white;
+    z-index: 3;
+}
+.headersidedivs{
+    background-color: white;
+    height: 9vh;
+    position: relative;
+    display: block;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+}
+/* Header Css Area End */
+ /* Nav Css Area Start  */
+/* All Header Tags Css */
+/* .mainnavdiv{
+    height: 14vh;
+} */
+.container-fluid{
+    height: 100%;
+}
+.mainnavdivleft{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* Nav Css Area End */
+/* Main Css Area Start */
+/* About Section Start */
+/* About Section End */
+/* Parllax Fixed Section Start */
+/* Mini Slider Area */
+.container{
+    margin: 10px auto;
+}
+.carusel{
+   height: 270px;
+   width: 100%;
+   position: relative;
+   margin-top: 20px;
+   overflow: hidden;
+}
+.slider{
+  /* height: 100%; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 200%;
+  transition: all 0.3s;
+}
+.slider>section{
+    flex-basis: 100%;
+    display: flex;
+}
+.sliderul{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-top: 20px !important;
+}
+.sliderul>li{
+    width: 15px;
+    height: 15px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin-top:20px;
+    margin-left: 10px;
+    background-color: gray;
+}
+.sliderul>li.selected{
+    background-color: transparent;
+}
+/* Mini Slider Area */
+/* Parllax Fixed Section End */
+/* Main Area End */
+/* Footer Area Start */
+/* Dark Footer Section Start */
+.darkfootersection{
+    /* height: 88vh; */
+    background-color: rgba(0, 0, 0, 0.918) !important;
+}

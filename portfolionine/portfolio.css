@@ -1,0 +1,96 @@
+.sticky{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;  
+    background-color: white;
+    z-index: 3;
+}
+.headersidedivs{
+    background-color: white;
+    height: 9vh;
+    position: relative;
+    display: block;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.425);
+}
+/* Header Css Area End */
+ /* Nav Css Area Start  */
+/* All Header Tags Css */
+.mainnavdiv{
+    height: 14vh;
+}
+.container-fluid{
+    height: 100%;
+}
+.mainnavdivleft{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* Nav Css Area End */
+/* Main Css Area Start */
+/*  We Are Hasta Css Section */
+.we-are-hasta-mainDiv{
+    /* height: 40vh; */
+}
+/*  We Are Hasta Css Section End */
+/* Related Css Area Start */
+.related-div{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.486);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Related Css Area Start */
+/* Slider Area Start */
+.containers{
+    width: 80%;
+    margin: 10px auto;
+}
+.carusel{
+   position: relative;
+   overflow: hidden;
+}
+.slider{
+  display: flex;
+  width: 400%;
+  transition: all 0.3s;
+}
+.slider>section{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.arrow{
+    border: 1px solid gray;
+    width: 20px;
+    height: 25px;
+    background-color: gray;
+}
+.works-div>p{
+    font-size: 18px;
+}
+.arrow>i{
+    margin-left: 4px;
+    color: white;
+}
+.arrow.right{
+   margin-left: 2px;
+}
+/* Slider Area End */
+/* Main Area End */
+/* Footer Area Start */
+/* Dark Footer Section Start */
+.darkfootersection{
+    height: 88vh;
+    background-color: rgba(0, 0, 0, 0.918) !important;
+}

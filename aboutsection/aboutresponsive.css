@@ -1,0 +1,98 @@
+@media only screen and (max-width: 768px) {
+    .allh6{
+        text-align: left;
+        transform: translateX(5px) !important;
+    }
+    .headeratag{
+        color: gray;
+        margin-left: 5px !important;
+    }
+    .allh3{
+        margin-top: 10px !important;
+    }
+    /* Media Header area */
+    .headersidedivs{
+        height: 4vh !important;
+    }
+    .mainnavdiv>a>span{
+        padding:1px 8px !important;
+        transform: translateX(4px) !important;
+    }
+    .mainnavdiv>a>span>i{
+        font-size: 12px !important;
+    }
+    .navul{
+    padding-top: 10px !important; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    }
+    .all-li-area{
+        margin-left: 5px !important;
+    }
+    .allh1{
+        font-size: 15px !important;
+        transform: translate(10px,2px) !important;        
+    }
+    .myallnavli{
+        margin-left: 2px !important;
+        font-size: 9px !important;
+    }
+    .mainnavdiv{
+        padding-bottom: 2px !important;
+    }
+    .firstchildnavli:hover .litopdiv{
+        height: 4vh !important; 
+    }
+/* About Section */
+/* Main Area Start */ 
+ /*Parllax Image Section  */
+ .parllax-absolute-img>h1{
+    margin-top: 20px !important;
+    font-size: 24px !important;
+}
+.parllax-absolute-img>p{
+    margin-top: 20px !important;
+    font-size: 14px !important;
+}
+.parllax-absolute-img>a>button{
+    margin-top: 10px !important;
+}
+ /*Parllax Image Section  */
+/* Main Area End */
+/* Footer Area Start */
+/* Dark Footer Section Start */
+/* .darkfootersection{
+    height: 240vh !important;
+} */
+.iconsoverfooterarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+    align-items: center;
+    height: 10vh !important;
+}
+.endatag{
+    padding: 5px 6px !important;
+    margin-left: 6px !important;
+}
+.paddingicons{
+    padding: 5px 10px !important;
+}
+.footercopyarea{
+    text-align: left !important;
+    font-size: 14px !important;
+}
+.under-hasta-pass-design>p{
+    font-size: 18px !important;
+}
+.under-hasta-pass-design>a{
+    font-size: 14px !important;
+}
+.under-hasta-pass-design>span{
+    font-size: 14px !important;
+}
+.for-responsive-height{
+    padding-bottom: 20px !important;
+}
+  }

@@ -1,0 +1,165 @@
+.sticky{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;  
+    background-color: white;
+    z-index: 3;
+}
+.headersidedivs{
+    background-color: #fd602c;
+    height: 9vh;
+    position: relative;
+    display: block;
+}
+/* Header Css Area End */
+ /* Nav Css Area Start  */
+
+/* All Header Tags Css */
+.mainnavdiv{
+    height: 14vh;
+}
+.container-fluid{
+    height: 100%;
+}
+.mainnavdivleft{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* Nav Css Area End */
+@media only screen and (max-width: 640px){
+    .controlmain{
+        transform: translateY(-90px);   
+    } 
+}
+/* For Mobile Responsive Design */
+.headersliderdiv{
+    margin:0px auto;
+    position: relative;
+    overflow: hidden;  
+}
+.indeximages{  
+    position: relative;
+    z-index: -1;
+}
+.allpicsforslider>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+.controlmain{
+    width:90%;
+    bottom:50%;
+    position: absolute;
+    left:5%;   
+}
+.control>a{   
+    color:white;
+    opacity: 0;
+    text-decoration: none;
+    transition:1s;
+}
+.headersliderdiv:hover .control>a{
+    opacity: 1;   
+}
+.headersliderdiv:hover{
+    cursor: pointer;;
+}
+.control>a>i{
+    font-size: 40px;
+    font-weight: 2000;
+}
+.spaceclass{
+    height: 80px;
+}
+/* Header Css Area End */
+/* Main Img Css Area Start */
+.mainimagesection{
+    height: 50vh;
+    background-image: url("img/blurbanner.jpg");
+    background-size: cover;
+    background-position-y: 40%;
+}
+
+/* Slider Section Css Area */
+/* For Mobile Responsive Design */
+/* Header Css Area End */
+/* Main Sections Css Area Start */
+/* Awesome Features Section Area Start */
+/* Creative Hasta Area Start */
+.creativehasta{
+    height: 105vh;
+}
+/* Our Works Section Css Area Start  */
+/* .ourworks{
+    height: 100vh;
+} */
+/* Orange Section Area Start */
+.orangesection{
+    height: 50vh;
+    background-color: #fd602c;
+}
+/* Number Section Css Area Start */
+.numbersection{
+    height: 80vh;
+}
+/* Blog Section Css Area Start */
+.blogsection{
+    height: 140vh;
+}
+/* Parlax Image Section Start */
+.parlaxsection{
+    height: 80vh;   
+}
+.parlaximagediv{
+    height: 70vh;
+    width: 100%;
+    background-image: url("img/parllax.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.parlaximagediv::before{
+    content: "";
+    width: 100%;
+    position: absolute; 
+    background-color: black;
+    height: 70vh;
+    opacity: 0.4;
+}
+/*  Our Pricing Css Area Start */
+.ourpricing{
+    height: 140vh;
+}
+/* Our Clients Css Section Start */
+.ourclientmain{
+    height: 70vh;
+    background-image: url("img/girlandman.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.ourclientmain::before{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    opacity: 0.7;
+    z-index: 1;
+}
+/* White&Orange Section Css Area Start */
+.orangeareacontainer{
+    height: 22vh;
+    background-color: #fd602c;
+    display: block;
+}
+/* Main Area End */
+/* Footer Area Start */
+/* Dark Footer Section Start */
+.darkfootersection{
+    height: 88vh;
+    background-color: rgba(0, 0, 0, 0.918);
+}
